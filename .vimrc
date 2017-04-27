@@ -4,6 +4,7 @@
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'https://github.com/pangloss/vim-javascript'
 call plug#end()
 
 " ------------------------ PYTHON -----------------------
