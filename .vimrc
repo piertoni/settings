@@ -4,8 +4,12 @@
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'https://github.com/pangloss/vim-javascript'
+"Plug 'https://github.com/pangloss/vim-javascript'
 Plug 'tpope/vim-surround'
+Plug 'Valloric/YouCompleteMe'
+Plug 'Lokaltog/powerline', {'rtp':'powerline/bindings/vim'}
+
+"Plug 'v0rp/ale'
 call plug#end()
 
 " ------------------------ PYTHON -----------------------
