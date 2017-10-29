@@ -6,10 +6,22 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 "Plug 'https://github.com/pangloss/vim-javascript'
 Plug 'tpope/vim-surround'
+"   <command><surround object>[count]<surround target>[replacement]
+"   commands c=change d=delete y=add
+"   cs"' " -> '
+"   cs<q>
 Plug 'Valloric/YouCompleteMe'
 Plug 'Lokaltog/powerline', {'rtp':'powerline/bindings/vim'}
 
 "Plug 'v0rp/ale'
+
+"USAGE  ctrl+ h j k l => Left, Down, Up, Right
+"       ctrl+k => Previous split
+Plug 'christoomey/vim-tmux-navigator'
+
+"GIT Wrapper
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 " ------------------------ PYTHON -----------------------
@@ -37,3 +49,9 @@ set encoding=utf-8
 ":set fileencoding=utf-8
 "
 set background=dark
+" Evidenzia ricerche
+set hlsearch
+" Folding
+set foldmethod=syntax
+" set foldlevel=1
+" set foldclose=all
