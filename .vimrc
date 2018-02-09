@@ -12,7 +12,8 @@ Plug 'tpope/vim-surround'
 "   commands c=change d=delete y=add
 "   cs"' " -> '
 "   cs<q>
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
+Plug 'davidhalter/jedi-vim'
 Plug 'Lokaltog/powerline', {'rtp':'powerline/bindings/vim'}
 
 "Plug 'v0rp/ale'
